@@ -10,7 +10,7 @@
 
     $scope.check = function() {
       var dishes = $scope.dishes.split(',');
-      if (dishes.length > 4) {
+      if (dishes.length > 3) {
         $scope.message = "Too much!";
       }
       else {
